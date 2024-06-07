@@ -1,0 +1,76 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(130deg, rgb(85, 37, 124) 35%, rgb(99, 70, 99) 100%);
+
+}
+.container{
+       border: 2px solid white;
+       width: 30%;
+       min-width: 450px;
+       position: absolute;
+       transform: translate(-50%,-50%);
+       top: 50%;
+       left: 50%;
+       padding: 30px 40px;
+}
+#newtask{
+     background-color: white;
+     padding: 40px 20px;
+     border-radius: 10px;
+     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+}
+#newtask input:focus{
+         border-color: purple;
+         outline: none;
+}
+#newtask h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#newtask input{
+    width: 70%;
+    height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: black;
+    position: relative;
+}
+#newtask button{
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 40px;
+    color: darkgray;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(185, 178, 178, 0.452);
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(14, 16, 17);
+    cursor: pointer;
+}
+#tasks{
+    background-color: rgb(255, 255, 255);
+    padding: 30px 30px;
+    margin-top: 60px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgb(0,0,0,0.5);
+    position: relative;
+}
+#tasks ul{
+    position: relative;
+    background-color: rgba(212, 202, 202, 0.493);
+    font-size: 18px;
+    padding: 10px;
+    margin: 9px;
+}
+#tasks ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
